@@ -1,0 +1,25 @@
+
+{
+    "region" : "us-east-1",
+    "profile" : "TESTE",
+    "configuration" : "Release",
+    "framework"     : "net8.0",
+    "function-name" : "Teste",
+    "package-type"  : "Zip",
+    "function-handler" : "Web.Test",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::975049992191:role/lambda_exec_Teste-0",
+    "function-timeout"     : 10,
+    "function-runtime"     : "dotnet8",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : "",
+    "s3-prefix"                : "InventoryEcommerceAPI/",
+    "template"                 : "serverless.template",
+    "template-parameters"      : "",
+    "s3-bucket"                : "lambdabucketinventory",
+    "stack-name"               : "InventoryEcommerceAPIStack"
+}

@@ -1,6 +1,7 @@
+# @Web.Test_HostAddress = http://localhost:32770:8080
 @Web.Test_HostAddress = http://localhost:5192
 
-GET {{Web.Test_HostAddress}}/weatherforecast/
+GET {{Web.Test_HostAddress}}/
 Accept: application/json
 
 ###

@@ -5,7 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Test", "Web.Test\Web.Test.csproj", "{67D630E8-1137-4147-B95D-23E5C27FD4A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventarioTestProject", "InventarioTestProject\InventarioTestProject.csproj", "{93A4670F-624C-471C-95A5-AA6C928BEBF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventarioTestProject", "InventarioTestProject\InventarioTestProject.csproj", "{93A4670F-624C-471C-95A5-AA6C928BEBF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9885189-280D-401B-B358-3B3A068FEE5F}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
